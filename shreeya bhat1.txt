@@ -1,0 +1,91 @@
+var a = 5;
+
+undefined
+
+var b = 17;
+
+undefined
+
+var b = a;
+
+undefined
+
+b 
+5
+  
+a 
+5
+
+var c = b;
+
+undefined
+
+c
+ 5
+
+
+
+
+
+
+
+obj = {};  
+
+Object {}
+
+obj
+
+Object {}
+
+typeof obj
+
+"object"
+
+obj.name = "shreya";
+
+"shreya"
+
+obj.age = 19;
+
+19
+
+obj
+
+Object {name: "shreya", age: 19}
+
+obj.hobby
+
+undefined
+
+obj.hobby = "singing";
+
+"singing"
+
+obj
+
+Object {name: "shreya", age: 19, hobby: "singing"}
+
+delete 
+obj.hobby;
+
+true
+
+obj
+
+Object {name: "shreya", age: 19}
+
+obj.func = function() {};
+
+function () {}
+
+obj
+
+Object {name: "shreya", age: 19}
+
+obj = null
+
+null
+
+obj
+
+null
